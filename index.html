@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#" id="ok" target="_blank">clslalclasl</a>
+    <script>
+        var x=new XMLHttpRequest();
+        x.responseType="blob";
+        x.open("get","https://developer.mozilla.org/static/jsi18n/en-US/javascript.414b87adc480.js"); 
+        x.onload=function(){
+            document.getElementById("ok").href= URL.createObjectURL(x.response);
+        };
+        x.send();   
+    </script>
+<!-- livezilla.net PLACE SOMEWHERE IN BODY -->
+<script type="text/javascript" id="4dd8ecf9e8a0fa23900e09f43cced122" src="http://10.33.132.144/livezilla/script.php?id=4dd8ecf9e8a0fa23900e09f43cced122" defer></script>
+<!-- livezilla.net PLACE SOMEWHERE IN BODY -->
+</body>
+</html>
